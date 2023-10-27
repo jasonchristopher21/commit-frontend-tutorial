@@ -1,0 +1,30 @@
+/* Barebones style. Please delete once y'all learn tailwind */
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 1rem;
+}
+
+.navbar-wrapper {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.navbar-content {
+    display: flex;
+    margin: auto 0;
+    gap: 2rem;
+}
+
+.container-wrapper {
+    padding: 1rem 0;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 4rem);
+    background-color: red;
+}
